@@ -1,0 +1,51 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+    padding: 80px 50px;
+    background-color: #090f21;
+  }
+  .footer a{
+    margin: 0px 25px;
+    text-decoration: none;
+    color: white;
+  }
+  .f1 a,.f2 a,.f3 a, .f1,.f2,.f3, .f1 img,span{
+    background-color: #090f21;
+  }
+  .bye{
+    padding: 10px 20px;
+    background-color: #ff7300;
+    border-radius: 30px;
+  }
+
+  @media (max-width:480px){
+    .footer{
+      display: inline-block;
+      padding: 60px 0px;
+      font-size: 15px;
+      line-height: 50px;
+      margin: 10px 0px;
+    }
+    .footer a{
+      margin: 0px 18px;
+    }
+    .f1{
+      position: relative;
+      right: 140px;
+      bottom:40px;
+    }
+    .f3 button{
+      position: relative;
+      bottom:140px;
+      left:80px;
+    }
+    .f3 a{
+      position: relative;
+      left: 70px;
+    }
+    .bye{
+      padding: 0px 20px;
+    }
+
+  }
+  

@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #011b69;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .part2 {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info2 h1 {
+    font-size: 50px;
+  }
+
+  @media (max-width:991px){
+
+  }
+  @media (max-width:768px){
+  
+  }
+  @media (max-width:480px){
+   .part2{
+    display: inline-block;
+    justify-content: center;
+    /* margin: 10px auto;
+  width: 100%;
+  font-size: 15px; */
+   }
+   .image2 img{
+    margin: 15px 0px;
+    width: 300px;
+    height: 450px;
+   }
+  }

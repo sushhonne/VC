@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #011b69;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+.signUp_form{
+ width: 50%;
+margin: 10px auto;
+}
+.name{
+    margin: 20px 0px;
+    padding: 0px 100px;
+}
+.apply{
+    padding: 50px;
+}
+.button_apply{
+    padding: 10px 20px;
+}
+
+@media (max-width:991px){
+
+}
+@media (max-width:768px){
+
+}
+@media (max-width:480px){
+  
+    
+}
